@@ -1,0 +1,10 @@
+.Background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/Background.jpg');
+    background-position: center center;
+    opacity: 80%;
+    background-size: cover;
+    z-index: -1;
+}

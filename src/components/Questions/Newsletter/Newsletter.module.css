@@ -1,0 +1,15 @@
+.Question p {
+    margin: auto;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.Radio {
+    width: 100%;
+}
+
+.EmailInput {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}

@@ -1,0 +1,30 @@
+.Logo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 80%;
+    height: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.Logo img {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+@media (min-width: 700px) {
+    .Logo img {
+        height: 100%;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.StartButton {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

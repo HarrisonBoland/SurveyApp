@@ -1,0 +1,12 @@
+.General {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 25%;
+}
+
+.General p {
+    margin: auto;
+    font-size: 30px;
+    padding: 20px;
+}

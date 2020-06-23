@@ -24,6 +24,8 @@ const Questions = (props) => {
             setQuestion(<AddAnything />)
         } else if (count === 5) {
             setQuestion(<Newsletter />)
+        } else if (count === 6) {
+            props.history.push('/thankyou');
         }
     }, [count]);
 

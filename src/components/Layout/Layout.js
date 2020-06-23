@@ -6,7 +6,7 @@ import styles from './Layout.module.css';
 const layout = ( props ) => (
     <Aux>
         <main>
-            <div className={styles.Background} />
+            <div className={styles.Background}></div>
             {props.children}
         </main>
     </Aux>
